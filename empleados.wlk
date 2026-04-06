@@ -1,7 +1,9 @@
 //Escribir aqui los objetos
 object gimenez{
     var fondo = 300000
-
+method fondo(){
+    return fondo
+}
 method pagarSueldo(empleado){
     fondo = fondo - empleado.sueldo() - empleado.cobrar()
 }
