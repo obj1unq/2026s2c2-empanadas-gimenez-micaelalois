@@ -3,7 +3,7 @@ object gimenez{
     var fondo = 300000
 
 method pagarSueldo(empleado){
-    fondo = fondo - empleado.sueldo()
+    fondo = fondo - empleado.sueldo() - empleado.cobrar()
 }
 }
 
