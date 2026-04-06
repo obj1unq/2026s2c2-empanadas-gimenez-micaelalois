@@ -5,7 +5,7 @@ method fondo(){
     return fondo
 }
 method pagarSueldo(empleado){
-    fondo = fondo - empleado.sueldo() - empleado.cobrar()
+    fondo = fondo - empleado.sueldo() 
 }
 }
 
