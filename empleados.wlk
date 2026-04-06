@@ -18,7 +18,7 @@ method gastar(cantidad){
     deuda = deuda + (cantidad - dinero)
     dinero = 0
     }
-    if (dinero > cantidad) {
+    else (dinero > cantidad) {
     dinero = dinero - cantidad
     }
 }
